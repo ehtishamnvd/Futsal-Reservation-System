@@ -1,0 +1,453 @@
+/* Custom CSS for ProfilePage component */
+
+/* General Page Styling */
+.profile-page {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding-bottom: 3rem;
+  margin-top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+/* Cover Photo */
+.cover-photo-container {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  background-color: #e9ecef;
+}
+
+.cover-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #6c757d;
+  background-image: linear-gradient(to bottom right, #064a93, #000000);
+}
+
+/* Profile Header */
+.profile-header {
+  position: relative;
+  margin-top: -80px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  z-index: 1;
+}
+
+.profile-picture-container {
+  margin-right: 1rem;
+}
+
+.profile-picture, .profile-picture-placeholder {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture-placeholder {
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture-placeholder::after {
+  content: 'Team';
+  font-size: 20px;
+  color: #6c757d;
+}
+
+.team-name {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #212529;
+}
+
+/* Status Cards */
+.status-card {
+  transition: transform 0.2s;
+}
+
+.status-card:hover {
+  transform: translateY(-3px);
+}
+
+.status-profile-pic {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+/* Timeline Gallery */
+.timeline-gallery {
+  margin-top: 1rem;
+}
+
+.timeline-image-card {
+  transition: all 0.3s ease;
+  border: none;
+  overflow: hidden;
+}
+
+.timeline-image-card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Custom Buttons */
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .cover-photo-container {
+    height: 200px;
+  }
+  
+  .profile-header {
+    margin-top: -40px;
+  }
+  
+  .profile-picture, .profile-picture-placeholder {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .team-name {
+    font-size: 1.5rem;
+  }
+}
+
+/* Bootstrap Icon Integration */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+/* Ground Timeline */
+
+/* Custom CSS for Ground Profile Page */
+
+/* Import Bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/* General Page Styling */
+.ground-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding-bottom: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+/* Hero Section with Cover Photo */
+.ground-hero-section {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.ground-cover-container {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+  background-color: #343a40;
+}
+
+.ground-cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+}
+
+.ground-cover-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.ground-cover-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  z-index: 2;
+}
+
+.ground-file-input {
+  display: none;
+}
+
+/* Content Container */
+.ground-content-container {
+  margin-top: -80px;
+  position: relative;
+  z-index: 3;
+}
+
+/* Ground Profile Card */
+.ground-profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* DP (Logo) Section */
+.ground-dp-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.ground-dp-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.ground-dp-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ground-dp-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #adb5bd;
+  background-color: #e9ecef;
+}
+
+.ground-dp-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Ground Info Section */
+.ground-info-section {
+  text-align: center;
+}
+
+.ground-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #343a40;
+}
+
+.ground-description {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Action Buttons */
+.ground-action-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.ground-msg-btn, 
+.ground-booking-btn, 
+.ground-academy-btn, 
+.ground-location-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.ground-msg-btn {
+  background-color: #0d6efd;
+}
+
+.ground-booking-btn {
+  background-color: #17a2b8;
+}
+
+.ground-academy-btn {
+  background-color: #6c757d;
+}
+
+.ground-location-btn {
+  background-color: #28a745;
+}
+
+/* Timeline Section */
+.ground-timeline-section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.ground-timeline-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 1.5rem;
+}
+
+.ground-timeline-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #343a40;
+  display: flex;
+  align-items: center;
+}
+
+.ground-timeline-upload {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Gallery Styling */
+.ground-timeline-gallery {
+  padding-top: 1rem;
+}
+
+.ground-gallery-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.ground-gallery-item:hover {
+  transform: translateY(-5px);
+}
+
+.ground-gallery-image-container {
+  height: 220px;
+  overflow: hidden;
+}
+
+.ground-gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.ground-gallery-item:hover .ground-gallery-image {
+  transform: scale(1.05);
+}
+
+.ground-gallery-actions {
+  padding: 0.8rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+.ground-delete-btn {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Empty Gallery State */
+.ground-empty-gallery {
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.ground-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #adb5bd;
+}
+
+/* Button Styling */
+.ground-select-btn, 
+.ground-upload-btn {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.ground-select-btn {
+  background-color: transparent;
+}
+
+.ground-upload-btn {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .ground-cover-container {
+    height: 250px;
+  }
+  
+  .ground-content-container {
+    margin-top: -40px;
+  }
+  
+  .ground-dp-container {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .ground-timeline-header {
+    flex-direction: column;
+  }
+  
+  .ground-timeline-upload {
+    margin-top: 1rem;
+  }
+  
+  .ground-cover-controls {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-end;
+  }
+}

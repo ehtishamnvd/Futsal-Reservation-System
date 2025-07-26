@@ -1,0 +1,552 @@
+/*Profile Page*/
+
+#coverbutton
+{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -200px;
+    width:95px;
+}
+
+.profilecontainer{
+    padding: 20px  15%;
+}
+.coverimg {
+    
+    position: absolute;
+    width:1738px;
+    height: 390px;
+    align-items: center;
+    margin-left: -230px;
+    margin-top: 0px;
+
+}
+.coverborder
+{
+    position: absolute;
+    border: 5px solid #142458;
+    width: 1518px;
+    height: 400px;
+    margin-left: -228px;
+    margin-top: 52px;
+}
+#coverimginput
+{
+  margin-top: 468px;
+  margin-left: -200px;
+  position: absolute;
+}
+#dpborder
+{
+    width: 180px;
+    height: 180px;
+    margin-top: 400px;
+    position: absolute;
+    margin-left: -36px;
+    border-radius:100px;
+    border: 5px solid #142458;
+}
+.profileimg
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+
+}
+.profilephoto{
+    width: 172px;
+    height: 169px;
+    margin-top: 1px;
+    border-radius:100px;
+    margin-left: -1px; 
+    display:inline-block;
+}
+#profilephotoinput
+{
+    height: 26px;
+    position: relative;
+    margin-top: 412px; 
+    margin-left: -216px;
+}
+#dpconfirm
+{
+    height: 26px;
+    margin: 20px;
+    margin-top: 496px;
+    position: relative;
+    margin-left: -76px;
+}
+.profilebuttons{
+  
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding-right: 5px;
+  position: relative;
+  top: -190px;
+}
+.matchup2{
+  background-color: rgb(37, 30, 131);
+  color: #ffffff;
+  margin-top: -105px;
+  height: 45px;
+  margin-left: 980px;
+  
+  position: absolute;
+}
+.message{
+  background-color: rgb(37, 30, 131);
+  color: #ffffff;
+  margin-top: -105px;
+  margin-left: 860px;
+  position: absolute;
+  height: 45px;
+}
+.logout{
+  background-color: rgb(37, 30, 131);
+  color: #ffffff;
+  margin-top: 500px;
+  margin-left: 1170px;
+  position: absolute;
+}
+.logout:hover{
+  background-color: red;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  margin-left: 20px;
+}
+.about{
+  background-color: rgb(255, 230, 230);
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  position: relative;
+  top:-250px;
+  margin-top: 300px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-top:-15px;
+  font-size: 17px;
+  
+}
+#aboutbutton
+{
+  margin-bottom: 10px;
+  background-color: rgb(96, 96, 247);
+  line-height: 10px;
+  height: 30px;
+  width:80px;
+  border: 5px solid rgb(96, 96, 247);
+  color: aliceblue;
+  border-radius: 10%;
+  margin-left: 900px;
+}
+
+#status
+{
+  background-color: rgb(253, 233, 233);
+  width:500px;
+  height: 120px;
+  color: black;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
+  padding: 10px;
+  box-shadow:  1px 5px 12px 4px rgb(255, 230, 230);
+}
+textarea[id^="status"]::-webkit-input-placeholder
+{
+  color: black;
+  border: none;
+  font-size: 18px;
+  position: relative;
+}
+#statusbutton
+{
+  margin-bottom: 6px;
+  background-color: rgb(96, 96, 247);
+  line-height: 10px;
+  height: 30px;
+  width:80px;
+  border: 5px solid rgb(96, 96, 247);
+  color: aliceblue;
+  border-radius: 10%;
+  margin-left: 900px;
+}
+
+.statusresult{
+  background-color: rgb(255, 230, 230);
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  position: relative;
+  top:-180px;
+  font-family: 'poppins',sans-serif;
+  padding:40px;
+  font-size: 17px;
+ 
+}
+.statusposted
+{
+  background-color: rgb(239, 236, 236);
+  width:580px;
+  height: 140px;
+  color: black;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-width: 5px;
+  border: 2px solid rgb(239, 236, 236);
+  border-bottom-style: 2px solid rgb(244, 147, 147);
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 22%;
+  box-shadow: 0 15px 25px rgba(75, 75, 75, 0.6);
+  
+}
+
+.teamgallery{
+  background-color: rgb(255, 230, 230);
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  position: relative;
+  top:-180px;
+  font-family: 'poppins',sans-serif;
+  padding:5px;
+  font-size: 17px;
+}
+.teamgallerypics
+{
+  width:150px;
+  height: 150px;
+  margin: 10px;
+  padding: 5px;
+  align-items: left;
+  justify-content: left;
+}
+.abouttext
+{
+  width: 1000px;
+  margin-top: 10px;
+  height: auto;
+  text-justify: auto;
+  text-align: justify;
+  text-align: left;
+  font-size: 16px;
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  padding: 0px;
+  box-shadow: 5px 2px 5px 1px gray;
+  height: 150px;
+  opacity:60% rgb(83, 52, 52);
+}
+.innerdetails{
+  
+  align-items: center;
+  color: rgb(49, 46, 46);
+  font-size: 12px;
+  justify-content: center;
+  font-weight: 50;
+}
+.profilepage
+{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  height: auto;
+}
+
+/*Profile Page*/
+
+#coverbutton
+{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -200px;
+    width:95px;
+}
+
+.profilecontainer{
+    padding: 20px  15%;
+}
+.coverimg {
+    
+    position: absolute;
+    width:1738px;
+    height: 390px;
+    align-items: center;
+    margin-left: -230px;
+    margin-top: 0px;
+
+}
+.coverborder
+{
+    position: absolute;
+    border: 5px solid #142458;
+    width: 1518px;
+    height: 400px;
+    margin-left: -228px;
+    margin-top: 52px;
+}
+#coverimginput
+{
+  margin-top: 468px;
+  margin-left: -200px;
+  position: absolute;
+}
+#dpborder
+{
+    width: 180px;
+    height: 180px;
+    margin-top: 400px;
+    position: absolute;
+    margin-left: -36px;
+    border-radius:100px;
+    border: 5px solid #142458;
+}
+.profileimg
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+
+}
+.profilephoto{
+    width: 172px;
+    height: 169px;
+    margin-top: 1px;
+    border-radius:100px;
+    margin-left: -1px; 
+    display:inline-block;
+}
+#profilephotoinput
+{
+    height: 26px;
+    position: relative;
+    margin-top: -392px; 
+    margin-left: -216px;
+    position: absolute;
+}
+#dpconfirm
+{
+    height: 26px;
+    margin: 20px;
+    margin-top: 496px;
+    position: relative;
+    margin-left: -76px;
+}
+.profilebuttons{
+  
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding-right: 5px;
+  position: relative;
+  top: -190px;
+}
+.matchup2{
+  background-color: rgb(37, 30, 131);
+  color: #ffffff;
+  margin-top: -105px;
+  height: 45px;
+  margin-left: 980px;
+  
+  position: absolute;
+}
+.message{
+  background-color: rgb(37, 30, 131);
+  color: #ffffff;
+  margin-top: -105px;
+  margin-left: 860px;
+  position: absolute;
+  height: 45px;
+}
+.logout{
+  background-color: rgb(37, 30, 131);
+  color: #ffffff;
+  margin-top: 500px;
+  margin-left: 1170px;
+  position: absolute;
+}
+.logout:hover{
+  background-color: red;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  margin-left: 20px;
+}
+.about{
+  background-color: rgb(255, 230, 230);
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  position: relative;
+  top:-250px;
+  margin-top: 300px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-top:-15px;
+  font-size: 17px;
+  
+}
+#aboutbutton
+{
+  margin-bottom: 10px;
+  background-color: rgb(96, 96, 247);
+  line-height: 10px;
+  height: 30px;
+  width:80px;
+  border: 5px solid rgb(96, 96, 247);
+  color: aliceblue;
+  border-radius: 10%;
+  margin-left: 900px;
+}
+
+#status
+{
+  background-color: rgb(253, 233, 233);
+  width:500px;
+  height: 120px;
+  color: black;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
+  padding: 10px;
+  box-shadow:  1px 5px 12px 4px rgb(255, 230, 230);
+}
+textarea[id^="status"]::-webkit-input-placeholder
+{
+  color: black;
+  border: none;
+  font-size: 18px;
+  position: relative;
+}
+#statusbutton
+{
+  margin-bottom: 6px;
+  background-color: rgb(96, 96, 247);
+  line-height: 10px;
+  height: 30px;
+  width:80px;
+  border: 5px solid rgb(96, 96, 247);
+  color: aliceblue;
+  border-radius: 10%;
+  margin-left: 900px;
+}
+
+.statusresult{
+  background-color: rgb(255, 230, 230);
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  position: relative;
+  top:-180px;
+  font-family: 'poppins',sans-serif;
+  padding:40px;
+  font-size: 17px;
+ 
+}
+.statusposted
+{
+  background-color: rgb(239, 236, 236);
+  width:580px;
+  height: 140px;
+  color: black;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-width: 5px;
+  border: 2px solid rgb(239, 236, 236);
+  border-bottom-style: 2px solid rgb(244, 147, 147);
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 22%;
+  box-shadow: 0 15px 25px rgba(75, 75, 75, 0.6);
+  
+}
+
+.teamgallery{
+  background-color: rgb(255, 230, 230);
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  position: relative;
+  top:-180px;
+  font-family: 'poppins',sans-serif;
+  padding:5px;
+  font-size: 17px;
+}
+.teamgallerypics
+{
+  width:150px;
+  height: 150px;
+  margin: 10px;
+  padding: 5px;
+  align-items: left;
+  justify-content: left;
+}
+.abouttext
+{
+  width: 1000px;
+  margin-top: 10px;
+  height: auto;
+  text-justify: auto;
+  text-align: justify;
+  text-align: left;
+  font-size: 16px;
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  padding: 0px;
+  box-shadow: 5px 2px 5px 1px gray;
+  height: 150px;
+  opacity:60% rgb(83, 52, 52);
+}
+.innerdetails{
+  
+  align-items: center;
+  color: rgb(49, 46, 46);
+  font-size: 12px;
+  justify-content: center;
+  font-weight: 50;
+}
+.profilepage
+{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  height: auto;
+}
